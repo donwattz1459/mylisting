@@ -1,4 +1,4 @@
-/*Login Confirmation Styling*/
+/*Login Confirmation Styling CSS*/
 .woocommerce-customer-logout .woocommerce-message {
 	position: absolute;
 	z-index: 99999;
