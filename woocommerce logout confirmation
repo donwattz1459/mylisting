@@ -1,0 +1,27 @@
+.woocommerce-customer-logout .woocommerce-message {
+	position: absolute;
+	z-index: 99999;
+	width: 50%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+}
+
+.woocommerce-customer-logout .woocommerce-message a {
+	color: white;
+	background: #c0021b;
+	padding: 10px 15px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+.woocommerce-customer-logout .woocommerce-message:before{
+	display: none;
+}
