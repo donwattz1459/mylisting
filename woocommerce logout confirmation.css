@@ -26,3 +26,25 @@
 .woocommerce-customer-logout .woocommerce-message:before{
 	display: none;
 }
+
+@media (max-width: 767px){
+	.woocommerce-customer-logout .woocommerce-message {
+		position: relative;
+		width: 100%;
+		height: auto;
+		display: block;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.woocommerce-customer-logout .woocommerce-message a {
+	color: white;
+	background: #c0021b;
+	padding: 10px 15px;
+	margin-left: 0px;
+	border-radius: 10px;
+	margin-top: 40px;
+	display: block;
+	text-align: center;
+}
+}
