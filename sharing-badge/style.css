@@ -1,0 +1,9 @@
+/*Add sharing_code to the class of the shortcode section of the single listing*/
+/*SHARING CODE TO HIDE FOR NON AUTHORS*/
+.is-listing-author .sharing_code{
+  display: block;
+}
+
+.sharing_code{
+	display: none;
+}
