@@ -1,0 +1,18 @@
+/*THIS CODE IS THANKS TO Miloš Šaltić*/
+/*Add this code to your Theme Options Custom Code*/
+/*Example of code in action https://nasiuamerici.com/adresar/miami/rakija-grill/*/
+
+.quick-listing-actions>ul>li>a {
+    padding: 10px 5px !important;
+    width: 140px;
+    text-align: center !important;
+    background: #ffffff !important;
+    border-radius: 5px !important;
+    transition: .3s ease !important;
+    box-shadow: 0px 2px 5px 0px rgba(47,61,74,0.2);
+}
+
+.quick-listing-actions>ul>li>a:hover {
+    box-shadow: 0px 8px 16px 0px rgba(47,61,74,0.2);
+    margin-top: -5px;
+}
