@@ -2,7 +2,7 @@
 /*Add this code to your Theme Options Custom Code*/
 /*Example of code in action https://nasiuamerici.com/adresar/miami/rakija-grill/*/
 
-quick-listing-actions {
+.quick-listing-actions {
     margin-top: 20px !important;
 }
 
@@ -22,7 +22,7 @@ quick-listing-actions {
     color: #9aa8bd;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .quick-listing-actions>ul>li>a>i {
     font-size: 16px !important;
     margin-bottom: 6px !important;
@@ -37,7 +37,7 @@ quick-listing-actions {
     transition: .3s ease !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .quick-listing-actions>ul>li>a span {
     font-size: 12px;
   }
@@ -53,7 +53,7 @@ quick-listing-actions {
     box-shadow: 0px 2px 5px 0px rgba(47,61,74,0.2);
 }
 
-@media all and (max-width: 640px) {
+@media (max-width: 640px) {
   .quick-listing-actions>ul>li>a {
     width: 120px !important;
   }
