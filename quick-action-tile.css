@@ -2,6 +2,47 @@
 /*Add this code to your Theme Options Custom Code*/
 /*Example of code in action https://nasiuamerici.com/adresar/miami/rakija-grill/*/
 
+quick-listing-actions {
+    margin-top: 20px !important;
+}
+
+.quick-listing-actions>ul {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.quick-listing-actions>ul>li {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.quick-listing-actions>ul>li>a>i {
+    font-size: 18px !important;
+    margin-bottom: 8px !important;
+    color: #9aa8bd;
+}
+
+@media only screen and (max-width: 600px) {
+  .quick-listing-actions>ul>li>a>i {
+    font-size: 16px !important;
+    margin-bottom: 6px !important;
+  }
+}
+
+.quick-listing-actions>ul>li>a span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9aa8bd;
+    height: 60px;
+    transition: .3s ease !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .quick-listing-actions>ul>li>a span {
+    font-size: 12px;
+  }
+}
+
 .quick-listing-actions>ul>li>a {
     padding: 10px 5px !important;
     width: 140px;
@@ -12,7 +53,17 @@
     box-shadow: 0px 2px 5px 0px rgba(47,61,74,0.2);
 }
 
+@media all and (max-width: 640px) {
+  .quick-listing-actions>ul>li>a {
+    width: 120px !important;
+  }
+}
+
 .quick-listing-actions>ul>li>a:hover {
     box-shadow: 0px 8px 16px 0px rgba(47,61,74,0.2);
     margin-top: -5px;
+}
+
+.quick-listing-actions>ul>li>a:hover span {
+    color: #f2cd41 !important; /* Put your website's Accent Color Here */
 }
