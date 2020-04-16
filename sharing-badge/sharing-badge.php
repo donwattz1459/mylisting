@@ -18,7 +18,7 @@
 	} );
 	
 	//GET CURRENT PAGE URL
-	//USE SHORTCODE [get_url} TO SHOW URL ON FRONT END
+	//USE SHORTCODE [get_url] TO SHOW URL ON FRONT END
 	//===========================================
 	add_shortcode ('geturl', 'get_current_page_url');
 	function get_current_page_url() {
